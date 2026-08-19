@@ -2,7 +2,8 @@
 
 ## Overview
 
-A population-genetics analysis based on a computational biology practical completed at Cornell University.
+ *Computational biology project completed as part of coursework at Cornell University.*
+
 
 The project investigates whether allele-frequency variation in an admixed population can be approximated as a mixture of CEU and YRI reference populations.
 
