@@ -1,29 +1,84 @@
-# Ancestry and Admixture Analysis
+# Computational Biology Portfolio
 
-## Overview
+A collection of computational biology projects developed using Python and R, covering population genetics, genetic drift, single-cell RNA sequencing, and quantitative modelling.
 
- *Computational biology project completed as part of coursework at Cornell University.*
+## Projects
 
+### 1. Ancestry and Admixture Analysis
 
-The project investigates whether allele-frequency variation in an admixed population can be approximated as a mixture of CEU and YRI reference populations.
+**Python · NumPy · pandas · Matplotlib · Population Genetics**
 
-Using Python, the analysis:
+Investigates whether allele-frequency variation in an admixed population can be approximated as a mixture of CEU and YRI reference populations.
 
-- compares allele-frequency distributions;
-- estimates the CEU admixture proportion using sum of squared errors (SSE);
-- compares observed and predicted allele frequencies; and
-- evaluates limitations of a simple two-population admixture model.
+The analysis estimates the CEU contribution using a sum-of-squared-errors approach and compares observed and predicted allele frequencies.
 
-## Results
+**Key result:** The best-fitting model estimated approximately 78% CEU and 22% YRI ancestry.
 
-The analysis produced an optimal admixture estimate of **α = 0.78**, corresponding to approximately **78% CEU and 22% YRI** under the model.
+[View notebook](./ancestry-admixture.ipynb)
 
-The admixed population showed a strong positive relationship with CEU allele frequencies, while the relationship with YRI was considerably weaker.
+---
 
-## Tools
+### 2. Wright-Fisher Genetic Drift Simulation
 
-Python · NumPy · pandas · Matplotlib · Jupyter Notebook · Population Genetics
+**Python · NumPy · Matplotlib · Stochastic Simulation · Population Genetics**
 
-## Data
+Simulates genetic drift in a finite diploid population using the Wright-Fisher model.
 
-The original allele-frequency dataset was provided as part of a Cornell University Computational Biology course practical and is therefore not included in this public repository.
+The project explores allele-frequency trajectories, fixation and loss, and the probability of fixation under different starting frequencies.
+
+[View notebook](./Wright-Fisher_Genetic_Drift_Simulation.ipynb)
+
+---
+
+### 3. Single-Cell RNA-seq Analysis of PBMCs
+
+**R · Seurat · PCA · UMAP · t-SNE · Louvain Clustering**
+
+Applies a single-cell RNA-seq analysis workflow to PBMC data, including preprocessing, dimensionality reduction, graph-based clustering and marker-gene analysis.
+
+The project investigates how clustering resolution affects the identification of cellular subpopulations.
+
+[View notebook](./Single-Cell%20RNA-seq%20Analysis%20of%20PBMCs.ipynb)
+
+---
+
+### 4. RNA Polymerase II Elongation Rate Analysis
+
+**R · ggplot2 · Regression · Quantitative Biology**
+
+Investigates the relationship between Pol II density and transcriptional elongation rate using MCF7 gene-expression data.
+
+Linear and logarithmic regression models are compared, and the empirical relationship is incorporated into a quantitative model of RNA production.
+
+[View notebook](./pol_II_elongation_analysis.ipynb)
+
+---
+
+## Skills Demonstrated
+
+- Python
+- R
+- NumPy
+- pandas
+- Matplotlib
+- ggplot2
+- Seurat
+- PCA
+- UMAP
+- t-SNE
+- Graph-based clustering
+- Population genetics
+- Stochastic simulation
+- Statistical modelling
+- Data visualisation
+- Quantitative biology
+
+## Academic Context
+
+These projects were completed as part of Computational Biology coursework at Cornell University.
+
+They are presented here as examples of my computational biology skills, including data analysis, programming, statistical modelling and biological interpretation.
+
+## Data Availability
+
+Some datasets used in these practicals were provided as part of Cornell University course materials and are therefore not included in this public repository.
