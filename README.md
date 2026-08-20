@@ -50,7 +50,7 @@ Investigates the relationship between Pol II density and transcriptional elongat
 
 Linear and logarithmic regression models are compared, and the empirical relationship is incorporated into a quantitative model of RNA production.
 
-[View notebook](./pol_II_elongation_analysis.ipynb)
+[View notebook](./pol-II-elongation-analysis.ipynb)
 
 ---
 
