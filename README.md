@@ -14,7 +14,7 @@ The analysis estimates the CEU contribution using a sum-of-squared-errors approa
 
 **Key result:** The best-fitting model estimated approximately 78% CEU and 22% YRI ancestry.
 
-[View notebook](./ancestry-admixture.ipynb)
+[View notebook](./ancestry-admixture-analysis.ipynb)
 
 ---
 
